@@ -1,0 +1,100 @@
+10001|Kharagpur-Rampurhat Vande Bharat|KGP|RPH|313|535.8|Sat,Sun
+10002|WB Local 6-WB Local 10 Shatabdi|WBL6|WBL10|667|743.6|Sat,Sun
+10003|WB Local 21-WB Local 25 Vande Bharat|WBL21|WBL25|331|2748.1|Sun
+10004|Shalimar-Kolkata Local|SHM|KOAA|1500|34.8|Daily
+10005|Kolkata-Siliguri Local|KOAA|SGUJ|1500|60.4|Sat,Sun
+10006|WB Local 22-WB Local 20 Local|WBL22|WBL20|1500|55.8|Mon,Wed,Fri
+10007|WB Local 13-WB Local 9 Express|WBL13|WBL9|789|310.3|Mon,Wed,Fri
+10008|New Mal Jn-Sealdah Express|NMZ|SDAH|658|987.5|Sun
+10009|New Jalpaiguri-Santragachi Local|NJP|SRC|1500|47.4|Except Tue
+10010|WB Local 13-WB Local 14 Shatabdi|WBL13|WBL14|586|84.2|Mon,Wed,Fri
+10011|WB Local 18-WB Local 17 Shatabdi|WBL18|WBL17|667|983.9|Except Tue
+10012|Bankura-WB Local 26 Express|BQA|WBL26|499|497.6|Sat,Sun
+10013|Katwa-Siliguri Local|KWAE|SGUJ|1500|75.4|Mon,Wed,Fri
+10014|Malda Town-WB Local 17 Shatabdi|MLDT|WBL17|304|1942.2|Sat,Sun
+10015|Alipurduar-Mumbai Central Express|APDJ|BCT|798|1720.6|Mon,Wed,Fri
+10016|Midnapore-WB Local 30 Superfast|MDN|WBL30|724|1679.8|Except Tue
+10017|WB Local 21-Katwa Rajdhani|WBL21|KWAE|722|1226.8|Sat,Sun
+10018|WB Local 6-Kharagpur Vande Bharat|WBL6|KGP|296|53.2|Mon,Wed,Fri
+10019|Bhubaneswar-WB Local 12 Shatabdi|BBS|WBL12|721|2806.7|Except Tue
+10020|Midnapore-WB Local 2 Special|MDN|WBL2|465|1316.6|Daily
+10021|Bandel-WB Local 16 Shatabdi|BDC|WBL16|831|1569.5|Sat,Sun
+10022|WB Local 19-Dum Dum Vande Bharat|WBL19|DDJ|785|1522.1|Sat,Sun
+10023|Mumbai Central-Thakurganj Express|BCT|TKG|823|428.5|Sun
+10024|Midnapore-KSR Bengaluru Local|MDN|SBC|1500|64.6|Mon,Wed,Fri
+10025|Guwahati-WB Local 6 Shatabdi|GHY|WBL6|223|2387.0|Sun
+10026|Pune Jn-WB Local 10 Shatabdi|PUNE|WBL10|256|446.0|Sat,Sun
+10027|WB Local 26-WB Local 20 Local|WBL26|WBL20|1500|25.8|Sun
+10028|Chennai Central-WB Local 25 Vande Bharat|MAS|WBL25|252|2559.9|Sat,Sun
+10029|WB Local 2-WB Local 29 Express|WBL2|WBL29|812|2938.5|Except Tue
+10030|WB Local 19-Purulia Vande Bharat|WBL19|PRR|767|1576.7|Sun
+10031|WB Local 21-Siliguri Shatabdi|WBL21|SGUJ|726|401.6|Daily
+10032|Kolkata-Sealdah Rajdhani|KOAA|SDAH|793|367.3|Mon,Wed,Fri
+10033|Guwahati-WB Local 22 Special|GHY|WBL22|387|2515.2|Sun
+10034|WB Local 19-Shalimar Local|WBL19|SHM|1500|35.8|Sat,Sun
+10035|Santragachi-Varanasi Local|SRC|BSB|1500|73.6|Sat,Sun
+10036|WB Local 20-Barrackpore Local|WBL20|BKP|1500|23.1|Sat,Sun
+10037|Guwahati-WB Local 20 Special|GHY|WBL20|676|2567.5|Sat,Sun
+10038|WB Local 1-New Delhi Rajdhani|WBL1|NDLS|289|1502.9|Daily
+10039|WB Local 5-WB Local 17 Shatabdi|WBL5|WBL17|468|2755.9|Mon,Wed,Fri
+10040|WB Local 16-WB Local 11 Local|WBL16|WBL11|1500|86.8|Except Tue
+10041|Naihati-Dum Dum Superfast|NH|DDJ|787|1162.5|Sun
+10042|Katwa-New Jalpaiguri Vande Bharat|KWAE|NJP|454|2726.6|Daily
+10043|Bhubaneswar-WB Local 30 Express|BBS|WBL30|800|2247.7|Daily
+10044|WB Local 5-New Delhi Superfast|WBL5|NDLS|359|1158.2|Daily
+10045|Thakurganj-WB Local 11 Superfast|TKG|WBL11|689|665.4|Daily
+10046|WB Local 19-Hooghly Vande Bharat|WBL19|HOO|611|2239.4|Daily
+10047|WB Local 13-WB Local 11 Superfast|WBL13|WBL11|450|2662.3|Daily
+10048|Katwa-WB Local 12 Superfast|KWAE|WBL12|841|349.0|Sat,Sun
+10049|Kalyani-WB Local 7 Special|KLYM|WBL7|711|1393.7|Daily
+10050|WB Local 3-Howrah Superfast|WBL3|HWH|571|1071.1|Sun
+10051|Jalpaiguri-New Jalpaiguri Special|JAL|NJP|550|1666.5|Except Tue
+10052|WB Local 30-Kharagpur Superfast|WBL30|KGP|499|2593.8|Sun
+10053|WB Local 1-WB Local 17 Superfast|WBL1|WBL17|671|1009.9|Sat,Sun
+10054|Hooghly-New Mal Jn Special|HOO|NMZ|899|257.5|Sun
+10055|WB Local 18-Midnapore Superfast|WBL18|MDN|523|1060.2|Mon,Wed,Fri
+10056|WB Local 30-Purulia Local|WBL30|PRR|1500|37.9|Except Tue
+10057|WB Local 27-Durgapur Rajdhani|WBL27|DGR|836|2160.8|Sat,Sun
+10058|WB Local 4-Santragachi Superfast|WBL4|SRC|796|2248.5|Mon,Wed,Fri
+10059|Santragachi-Kharagpur Vande Bharat|SRC|KGP|922|591.5|Sun
+10060|WB Local 30-Barrackpore Shatabdi|WBL30|BKP|710|1493.4|Mon,Wed,Fri
+10061|WB Local 13-WB Local 21 Superfast|WBL13|WBL21|282|335.5|Except Tue
+10062|WB Local 6-Rampurhat Local|WBL6|RPH|1500|76.4|Mon,Wed,Fri
+10063|Jalpaiguri-Shalimar Special|JAL|SHM|895|998.1|Sat,Sun
+10064|WB Local 10-WB Local 12 Superfast|WBL10|WBL12|416|1056.9|Mon,Wed,Fri
+10065|Patna Jn-Kolkata Superfast|PNBE|KOAA|714|1257.4|Mon,Wed,Fri
+10066|Bardhaman-New Jalpaiguri Special|BWN|NJP|730|2938.0|Sun
+10067|WB Local 22-New Delhi Superfast|WBL22|NDLS|881|950.2|Sun
+10068|WB Local 13-Jalpaiguri Rajdhani|WBL13|JAL|293|2479.5|Sun
+10069|Bardhaman-WB Local 17 Shatabdi|BWN|WBL17|997|1837.4|Daily
+10070|WB Local 19-Bandel Superfast|WBL19|BDC|529|1830.7|Sat,Sun
+10071|Bandel-WB Local 8 Express|BDC|WBL8|796|191.1|Mon,Wed,Fri
+10072|Bardhaman-Alipurduar Shatabdi|BWN|APDJ|615|1241.3|Except Tue
+10073|WB Local 20-Bankura Special|WBL20|BQA|515|1689.7|Sun
+10074|Lucknow-Shalimar Special|LKO|SHM|643|2103.7|Sun
+10075|WB Local 22-Bandel Rajdhani|WBL22|BDC|800|1244.5|Mon,Wed,Fri
+10076|Jalpaiguri-Lucknow Local|JAL|LKO|1500|75.3|Except Tue
+10077|WB Local 15-Kolkata Rajdhani|WBL15|KOAA|433|2298.5|Daily
+10078|Howrah-WB Local 14 Express|HWH|WBL14|753|213.6|Mon,Wed,Fri
+10079|KSR Bengaluru-Dum Dum Express|SBC|DDJ|734|2213.4|Mon,Wed,Fri
+10080|Durgapur-WB Local 18 Shatabdi|DGR|WBL18|990|2675.1|Sat,Sun
+10081|Santragachi-KSR Bengaluru Express|SRC|SBC|799|2112.9|Daily
+10082|Dum Dum-WB Local 6 Local|DDJ|WBL6|1500|83.1|Sun
+10083|WB Local 7-Hooghly Special|WBL7|HOO|787|2531.9|Except Tue
+10084|Rampurhat-Pune Jn Rajdhani|RPH|PUNE|796|2253.5|Sun
+10085|Varanasi-WB Local 16 Rajdhani|BSB|WBL16|936|1899.5|Sat,Sun
+10086|WB Local 18-WB Local 20 Superfast|WBL18|WBL20|804|1519.8|Daily
+10087|WB Local 20-Mumbai Central Vande Bharat|WBL20|BCT|725|400.4|Sat,Sun
+10088|Durgapur-Thakurganj Superfast|DGR|TKG|400|386.4|Sun
+10089|Kolkata-WB Local 30 Superfast|KOAA|WBL30|614|1370.1|Except Tue
+10090|Hooghly-Kolkata Express|HOO|KOAA|894|1161.6|Mon,Wed,Fri
+10091|WB Local 17-Santragachi Shatabdi|WBL17|SRC|611|2067.0|Daily
+10092|Asansol-Patna Jn Vande Bharat|ASN|PNBE|366|2170.2|Sun
+10093|WB Local 6-WB Local 18 Rajdhani|WBL6|WBL18|430|1037.5|Mon,Wed,Fri
+10094|WB Local 9-Siliguri Express|WBL9|SGUJ|213|1813.0|Except Tue
+10095|Mumbai Central-Asansol Shatabdi|BCT|ASN|282|1701.1|Except Tue
+10096|Guwahati-Berhampore Court Vande Bharat|GHY|BPC|741|764.6|Sun
+10097|Bandel-New Mal Jn Local|BDC|NMZ|1500|43.6|Sun
+10098|WB Local 21-WB Local 11 Rajdhani|WBL21|WBL11|399|1573.4|Mon,Wed,Fri
+10099|Dum Dum-WB Local 17 Superfast|DDJ|WBL17|399|1793.4|Daily
+10100|Kalyani-Bandel Rajdhani|KLYM|BDC|341|1299.1|Sat,Sun

@@ -1,0 +1,6 @@
+# Format: ID|Username|Password|Name|Role
+656deef1-14b4-49d8-be89-86cf4bad1e0f|testuser|password123|Test User|USER
+32e2a310-d150-4aae-a8d2-87fee7148141|admin|adminpass|Admin User|ADMIN
+e711f290-5b39-46cf-b11e-a13b8433815f|ddccc12|1234@12|ddccc12|USER
+82afd072-bef0-4699-ab32-93995d80bf09|abcc|asdfghjK@|abcc|USER
+3e6e7132-0c42-494a-b590-7f7dbab7a544|adrian11|adriaN!12|adrian11|USER
