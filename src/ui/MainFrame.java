@@ -21,7 +21,7 @@ public class MainFrame extends JFrame {
     private service.StationService stationService;
 
     public MainFrame() {
-        super("Intelligent Railway Reservation & Network Management System");
+        super("Railway Reservation & Network Management System");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(1000, 700);
         setLocationRelativeTo(null);

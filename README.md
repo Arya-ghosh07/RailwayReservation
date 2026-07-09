@@ -1,4 +1,4 @@
-# Intelligent Railway Reservation and Network Management System
+# Railway Reservation and Network Management System
 
 A standalone Java Swing application for managing railway reservations, querying routes, and administrating a railway network graph.
 
