@@ -34,6 +34,16 @@ public class DijkstraAlgorithm {
         }
     }
 
+    private static class NodeRecord {
+        String stationCode;
+        double sortWeight;
+
+        NodeRecord(String stationCode, double sortWeight) {
+            this.stationCode = stationCode;
+            this.sortWeight = sortWeight;
+        }
+    }
+
     /**
      * Finds the shortest path between source and destination station in the given graph.
      * 
@@ -47,10 +57,10 @@ public class DijkstraAlgorithm {
         java.util.Map<String, Double> distances = new java.util.HashMap<>();
         java.util.Map<String, Integer> travelTimes = new java.util.HashMap<>();
         java.util.Map<String, String> previous = new java.util.HashMap<>();
-        java.util.PriorityQueue<String> queue = new java.util.PriorityQueue<>(
-                (a, b) -> sortByDistance 
-                          ? Double.compare(distances.get(a), distances.get(b))
-                          : Integer.compare(travelTimes.get(a), travelTimes.get(b))
+        
+        // PriorityQueue now stores NodeRecords to avoid O(N) remove() calls
+        java.util.PriorityQueue<NodeRecord> queue = new java.util.PriorityQueue<>(
+                java.util.Comparator.comparingDouble(nr -> nr.sortWeight)
         );
 
         for (String stationCode : graph.getStations().keySet()) {
@@ -60,10 +70,20 @@ public class DijkstraAlgorithm {
 
         distances.put(sourceCode, 0.0);
         travelTimes.put(sourceCode, 0);
-        queue.add(sourceCode);
+        queue.add(new NodeRecord(sourceCode, 0.0));
+
+        // Keep track of visited nodes to skip stale records in the queue
+        java.util.Set<String> visited = new java.util.HashSet<>();
 
         while (!queue.isEmpty()) {
-            String current = queue.poll();
+            NodeRecord currentRecord = queue.poll();
+            String current = currentRecord.stationCode;
+            
+            // Skip if we've already processed this node via a shorter path
+            if (visited.contains(current)) {
+                continue;
+            }
+            visited.add(current);
 
             if (current.equals(destinationCode)) {
                 break; // Found shortest path
@@ -71,6 +91,9 @@ public class DijkstraAlgorithm {
 
             for (Edge edge : graph.getEdges(current)) {
                 String neighbor = edge.getDestinationCode();
+                if (visited.contains(neighbor)) {
+                    continue;
+                }
                 
                 double newDist = distances.get(current) + edge.getDistance();
                 int newTime = travelTimes.get(current) + edge.getTravelTimeMinutes();
@@ -82,8 +105,8 @@ public class DijkstraAlgorithm {
                     travelTimes.put(neighbor, newTime);
                     previous.put(neighbor, current);
                     
-                    queue.remove(neighbor);
-                    queue.add(neighbor);
+                    double newWeight = sortByDistance ? newDist : newTime;
+                    queue.add(new NodeRecord(neighbor, newWeight));
                 }
             }
         }
