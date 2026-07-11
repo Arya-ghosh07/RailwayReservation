@@ -23,7 +23,8 @@ public class StationService {
         
         // Load edges from data/edges.txt
         try {
-            java.util.List<String> lines = java.nio.file.Files.readAllLines(java.nio.file.Paths.get("data/edges.txt"));
+            String edgesPath = new java.io.File("data/edges.txt").exists() ? "data/edges.txt" : "../data/edges.txt";
+            java.util.List<String> lines = java.nio.file.Files.readAllLines(java.nio.file.Paths.get(edgesPath));
             for (String line : lines) {
                 String[] parts = line.split("\\|");
                 if (parts.length == 4) {

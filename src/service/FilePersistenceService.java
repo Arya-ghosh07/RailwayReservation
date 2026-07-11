@@ -15,7 +15,13 @@ import java.util.List;
  * Text-file based implementation of the PersistenceService.
  */
 public class FilePersistenceService implements PersistenceService {
-    private static final String DATA_DIR = "data/";
+    private static final String DATA_DIR = resolveDataDir();
+
+    private static String resolveDataDir() {
+        if (new java.io.File("data").exists()) return "data/";
+        if (new java.io.File("../data").exists()) return "../data/";
+        return "data/";
+    }
     private static final String USERS_FILE = DATA_DIR + "users.txt";
     private static final String STATIONS_FILE = DATA_DIR + "stations.txt";
     private static final String TRAINS_FILE = DATA_DIR + "trains.txt";
